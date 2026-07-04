@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+background-color: white;
+align-items: center;
+padding: 5px 20px;
+
+
+}
+header h1 {
+    
+    color:#01489C;
+    font-size: 24px;
+
+}
+header h1  span { 
+ color: #1d76e4;
+ font-style: italic;
+}
+header nav {
+    align-items:center;
+    display: flex;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+header nav ul li {
+    list-style: none;
+    
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    
+}
+header nav ul li a:hover {
+    color: #1d76e4;
+    transition: color 0.3s ease-in-out;
+}
+.header-buttons {
+    display: flex;
+    justify-content: space-middle;
+    gap: 10px;
+    align-items: center;
+}
+.header-buttons a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    
+}
+.header-buttons a:hover {
+    color: #1d76e4;
+    transition: color 0.3s ease-in-out;
+}
+.header-buttons button {
+    background-color: #1d76e4;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.header-buttons button:hover {
+    background-color: #0d69d0;
+}
+

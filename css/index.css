@@ -12,6 +12,9 @@ justify-content: space-between;
 background-color: white;
 align-items: center;
 padding: 5px 20px;
+top: 0;
+position:  sticky;
+z-index: 1000;
 
 
 }
@@ -79,3 +82,93 @@ header nav ul li a:hover {
     background-color: #0d69d0;
 }
 
+@media screen {
+    
+}
+.main-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.main-hero .image-box {
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.main-hero .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+}
+
+.text-box .first {
+    display: flex;
+    gap: 10px;
+
+}
+ .text-box .first button {
+     background-color: #1d76e4;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+ 
+ .text-box .first span {
+    border: 1px solid #333;
+    border-radius: 50px;
+    padding: 5px 10px;
+    
+ }
+.text-box p {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+ .text-box div h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: 700;
+
+}
+.text-box .second  p {
+  text-transform: none !important;
+    font-style: italic;
+
+}
+.text-box .third {
+    display: flex;
+    gap: 10px;
+
+    
+}
+.text-box .third .btn {
+    background-color: #1d76e4;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+} 
+.text-box .third button {
+    background-color: none;
+    padding: 10px 20px;
+    border: 1px solid #1d76e4;
+    color: #1d76e4; 
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ 
